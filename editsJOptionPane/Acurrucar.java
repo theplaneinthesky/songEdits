@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
 import java.awt.Font;
 
-public class Main {
+public class Acurrucar {
     public static void main(String[] args) {
         // Esta imagen es para la portada del disco en el primer showMessageDialog (uso imagenes de 64x64 pixeles)
         ImageIcon iconoAlbum = new ImageIcon("path/icono.png");
@@ -22,7 +22,7 @@ public class Main {
         // Le pasamos el label como argumento al showMessageDialog
         JOptionPane.showMessageDialog(null, label, "Ed Maverick - mix pa llorar en tu cuarto", JOptionPane.PLAIN_MESSAGE);
 
-        // La letra de la cancion separa con saltos de linea "\n"
+        // La letra de la cancion separada con saltos de linea "\n"
         String letraStr = "Quiero que me digas\n" +
                 "que me quieres\n" +
                 "y\n" +
