@@ -5,9 +5,9 @@ import java.awt.Font;
 
 public class Main {
     public static void main(String[] args) {
-        // Esta imagen la uso para el icono de las letras
+        // Esta imagen es para la portada del disco en el primer showMessageDialog (uso imagenes de 64x64 pixeles)
         ImageIcon iconoAlbum = new ImageIcon("path/icono.png");
-        // Esta imagen es para la portada del disco en el primer showMessageDialog
+        // Esta imagen la uso para el icono de las letras (uso imagenes de 300x300 pixeles)
         ImageIcon imagenAlbum = new ImageIcon("path/imagen.png");
 
         // Label para la portada del album y su nombre
