@@ -1,4 +1,4 @@
-public class TestCf {
+public class TestCienciaficcion {
 
     public static void imprimirTexto(String texto, String colorLetra, long tiempoEsperaTexto,
                                      long tiempoEsperaFinal, boolean saltoDeLinea, boolean limpiarLinea,
@@ -71,4 +71,5 @@ public class TestCf {
         imprimirTexto("que tú y yo duremos...", NARANJA_CLARO, 1400, 5000, true, false, false);
 
     }
+
 }
