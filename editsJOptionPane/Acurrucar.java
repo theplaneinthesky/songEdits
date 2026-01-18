@@ -19,9 +19,6 @@ public class Acurrucar {
         label.setHorizontalTextPosition(JLabel.CENTER);
         label.setVerticalTextPosition(JLabel.BOTTOM);
 
-        // Le pasamos el label como argumento al showMessageDialog
-        JOptionPane.showMessageDialog(null, label, "Ed Maverick - mix pa llorar en tu cuarto", JOptionPane.PLAIN_MESSAGE);
-
         // La letra de la cancion separada con saltos de linea "\n"
         String letraStr = "Quiero que me digas\n" +
                 "que me quieres\n" +
@@ -57,6 +54,9 @@ public class Acurrucar {
         // Arreglo para la letra, usamos la funcion split que devuelve un arreglo con los String
         // delimitados por el patron "\n"
         String[] letraArr = letraStr.split("\n");
+
+        // Le pasamos el label como argumento al showMessageDialog para mostrar el titulo del album y su portada
+        JOptionPane.showMessageDialog(null, label, "Ed Maverick - mix pa llorar en tu cuarto", JOptionPane.PLAIN_MESSAGE);
 
         // Recorremos letraArr para mostrar cada String con showMessageDialog()
         for (String linea : letraArr) {
